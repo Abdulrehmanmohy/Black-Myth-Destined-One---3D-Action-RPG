@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a1608" />
+      <stop offset="60%" stop-color="#120c08" />
+      <stop offset="100%" stop-color="#050302" />
+    </radialGradient>
+    <linearGradient id="goldFillet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="40%" stop-color="#eab308" />
+      <stop offset="80%" stop-color="#ca8a04" />
+      <stop offset="100%" stop-color="#854d0e" />
+    </linearGradient>
+    <linearGradient id="staffGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="30%" stop-color="#ef4444" />
+      <stop offset="70%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGlow)" />
+  <rect width="504" height="504" x="4" y="4" rx="96" fill="none" stroke="#eab308" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Outer Sacred Ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#ca8a04" stroke-width="3" stroke-dasharray="8 6" opacity="0.4" />
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#ef4444" stroke-width="1.5" opacity="0.5" />
+
+  <!-- The Ruyi Jingu Bang (Staff) crossing diagonally -->
+  <g transform="rotate(-35 256 256)">
+    <!-- Golden Tips -->
+    <rect x="238" y="70" width="36" height="55" rx="6" fill="url(#goldFillet)" stroke="#fef08a" stroke-width="2" />
+    <!-- Iron Body -->
+    <rect x="242" y="125" width="28" height="262" rx="4" fill="url(#staffGlow)" />
+    <!-- Bottom Gold Tip -->
+    <rect x="238" y="387" width="36" height="55" rx="6" fill="url(#goldFillet)" stroke="#fef08a" stroke-width="2" />
+    <!-- Dragon filigree bands -->
+    <line x1="238" y1="90" x2="274" y2="90" stroke="#78350f" stroke-width="3" />
+    <line x1="238" y1="105" x2="274" y2="105" stroke="#78350f" stroke-width="3" />
+    <line x1="238" y1="405" x2="274" y2="405" stroke="#78350f" stroke-width="3" />
+    <line x1="238" y1="420" x2="274" y2="420" stroke="#78350f" stroke-width="3" />
+  </g>
+
+  <!-- The Golden Fillet (Curved Circlet Crown) -->
+  <path d="M 120 230 C 180 160, 332 160, 392 230 C 360 215, 300 200, 256 200 C 212 200, 152 215, 120 230 Z" fill="url(#goldFillet)" filter="drop-shadow(0 0 12px rgba(234,179,8,0.8))" />
+  <!-- Center gem/knot of the Fillet -->
+  <path d="M 240 200 C 248 175, 264 175, 272 200 C 265 208, 247 208, 240 200 Z" fill="#ef4444" stroke="#fef08a" stroke-width="2" />
+
+  <!-- Primal Fire/Will Embers -->
+  <circle cx="210" cy="270" r="10" fill="#f59e0b" opacity="0.8" />
+  <circle cx="302" cy="270" r="10" fill="#f59e0b" opacity="0.8" />
+  <circle cx="210" cy="270" r="4" fill="#ffffff" />
+  <circle cx="302" cy="270" r="4" fill="#ffffff" />
+
+  <!-- Bottom Crest Label (WUKONG) -->
+  <text x="256" y="465" font-family="'Cinzel', serif, sans-serif" font-size="28" font-weight="900" fill="#fbbf24" text-anchor="middle" letter-spacing="8" filter="drop-shadow(0 2px 4px #000)">DESTINED ONE</text>
+</svg>

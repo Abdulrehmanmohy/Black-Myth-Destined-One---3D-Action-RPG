@@ -1,0 +1,6 @@
+{
+  "name": "Black Myth: Destined One - 3D Action RPG",
+  "description": "Awaken as the Destined One in this dark mythology 3D Action RPG. Wield the Ruyi Jingu Bang, master staff stances, cast legendary spells, and battle fallen deities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Black Myth: Destined One - 3D Action RPG",
+  "short_name": "DestinedOne",
+  "description": "Awaken as the Destined One in this dark mythology 3D Action RPG. Wield the Ruyi Jingu Bang, master staff stances, and battle fallen deities.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "#0a0a0c",
+  "background_color": "#070709",
+  "categories": ["games", "action", "role-playing"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
